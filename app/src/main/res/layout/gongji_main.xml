@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gongji_bg"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/line4">
+        <TextView
+            android:id="@+id/back_button"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:text="뒤로가기"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="198dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="공지사항"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/select_date"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:text="날짜 선택"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/roof" />
+
+        <View
+            android:id="@+id/tmp_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <View
+            android:layout_below="@id/tmp_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/line6"
+            />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/image_1"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="17dp"
+            android:descendantFocusability="blocksDescendants" />
+        <RelativeLayout
+            android:id="@+id/CVOn"
+            android:layout_width="400dp"
+            android:layout_height="500dp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible">
+
+            <CalendarView
+                android:id="@+id/CalendarView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#DD000000" />
+
+            <Button
+                android:id="@+id/choose_date"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/CalendarView"
+                android:layout_marginTop="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/line4"
+                android:text="날짜\n선택"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

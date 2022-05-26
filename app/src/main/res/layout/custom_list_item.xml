@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+        <ImageView
+            android:layout_marginBottom="5dp"
+            android:id="@+id/image_title"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_toRightOf="@id/image_title"
+            android:fontFamily="@font/font1"
+            android:gravity="center"
+            android:text="0000 - 00 - 00"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/text_title"
+            android:layout_width="284dp"
+            android:layout_height="63dp"
+            android:layout_below="@id/text_date"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/image_title"
+            android:ellipsize="end"
+            android:fontFamily="@font/font1"
+            android:gravity="left"
+            android:maxLines="1"
+            android:text="0000 - 00 - 00"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+
+        <View
+            android:layout_marginLeft="95dp"
+            android:layout_width="300dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/line5" />
+    </RelativeLayout>
+
+</LinearLayout>
