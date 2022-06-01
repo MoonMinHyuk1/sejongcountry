@@ -39,13 +39,15 @@
         android:background="@drawable/main_menu">
 
         <LinearLayout
-            android:layout_marginTop="90dp"
             android:id="@+id/tmp_1"
             android:layout_width="match_parent"
-            android:layout_height="180dp">
+            android:layout_height="180dp"
+            android:layout_marginTop="90dp">
 
             <RelativeLayout
-                android:layout_width="206dp"
+                android:layout_weight="1"
+                android:id="@+id/tmp_4"
+                android:layout_width="190dp"
                 android:layout_height="match_parent">
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -53,70 +55,81 @@
                     android:layout_width="215dp"
                     android:layout_height="155dp"
                     android:layout_marginTop="20dp"
+                    android:layout_marginRight="7dp"
                     android:background="@drawable/mainmenu_button_1"
                     android:backgroundTint="@null"
                     android:fontFamily="@font/font2"
                     android:gravity="top|center"
                     android:text="방송듣기"
                     android:textColor="@color/black"
-                    android:textSize="40dp" />
+                    android:textSize="37dp" />
 
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_marginTop="20dp"
-                android:layout_width="200dp"
+                android:layout_weight="1"
+                android:layout_width="180dp"
                 android:layout_height="155dp"
-                >
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/tmp_4">
+
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/ge_button"
-                    android:layout_width="185dp"
+                    android:layout_width="195dp"
                     android:layout_height="155dp"
+                    android:layout_marginRight="20dp"
                     android:background="@drawable/mainmenu_button_2"
                     android:fontFamily="@font/font2"
                     android:text=" 게시판 "
                     android:textColor="@color/black"
-                    android:textSize="40dp" />
+                    android:textSize="37dp" />
+
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/ge_button_hide"
-                    android:layout_marginLeft="3dp"
                     android:layout_width="200dp"
+                    android:layout_marginRight="10dp"
                     android:layout_height="155dp"
-                    android:background="@drawable/mainmenu_button_2_1"
-                    />
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/mainmenu_button_2_1" />
+
                 <Button
                     android:id="@+id/gong_button"
-                    android:layout_width="match_parent"
-                    android:layout_height="77dp"
+                    android:layout_width="200dp"
+                    android:layout_height="78dp"
+                    android:layout_marginRight="20dp"
                     android:background="#00ff0000"
                     android:fontFamily="@font/font2"
                     android:text="공지사항"
                     android:textColor="@color/black"
-                    android:textSize="40dp"
+                    android:textSize="36dp"
                     android:visibility="invisible" />
 
                 <Button
                     android:id="@+id/gun_button"
-                    android:layout_width="match_parent"
+                    android:layout_width="200dp"
                     android:layout_height="78dp"
                     android:layout_below="@id/gong_button"
+                    android:layout_marginRight="20dp"
                     android:background="#00ff0000"
                     android:fontFamily="@font/font2"
                     android:text="건의사항"
                     android:textColor="@color/black"
-                    android:textSize="40dp"
+                    android:textSize="37dp"
                     android:visibility="invisible" />
             </RelativeLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:layout_below="@id/tmp_1">
+            android:layout_height="160dp"
+            android:layout_below="@id/tmp_1"
+            >
 
             <androidx.appcompat.widget.AppCompatButton
+                android:layout_weight="1"
                 android:id="@+id/Chat_button"
-                android:layout_marginLeft="22dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="25dp"
                 android:layout_width="165dp"
                 android:layout_height="155dp"
                 android:background="@drawable/mainmenu_button_4"
@@ -124,11 +137,14 @@
                 android:text="몽룡춘향"
                 android:gravity="center_horizontal"
                 android:textColor="@color/black"
-                android:textSize="40dp" />
+                android:textSize="37dp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:layout_weight="1"
                 android:id="@+id/setting_button"
-                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/Chat_button"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="20dp"
                 android:layout_width="165dp"
                 android:layout_height="155dp"
                 android:background="@drawable/mainmenu_button_3"
@@ -136,15 +152,15 @@
                 android:fontFamily="@font/font2"
                 android:text="   설정   "
                 android:textColor="@color/black"
-                android:textSize="40dp"/>
+                android:textSize="37dp"/>
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_alignParentBottom="true"
             android:id="@+id/singo_button"
             android:layout_width="130dp"
             android:layout_height="130dp"
-            android:layout_marginLeft="135dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
             android:background="@drawable/oneonenine"
             android:textSize="25dp" />
 
