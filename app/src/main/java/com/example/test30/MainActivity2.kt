@@ -49,10 +49,13 @@ class MainActivity2 : AppCompatActivity() {
         }
         else {  //SharedPreferences에 값이 저장되어 있을 때
             userId = MySharedPreferences.getUserId(this)
+            PHONE = MySharedPreferences.getUserGuardian(this)
+            MESSAGE = MySharedPreferences.getUserName(this) + "님께서 긴급호출을 요청하였습니다."
         }
 
         singo_button.setOnLongClickListener({
-            sendSms(userId)
+            //sendSms(userId)
+            smsManager.sendTextMessage(PHONE, null, MESSAGE, null, null)
             Toast.makeText(applicationContext,"보호자에게 긴급문자가 전송되었습니다.",Toast.LENGTH_SHORT).show()
             true
         })

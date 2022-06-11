@@ -147,6 +147,8 @@ class MainActivity : AppCompatActivity() {
 
                     if(status.equals("true")) {
                         val TYPE = info.getString("type")
+                        val NAME = info.getString("name")
+                        val GUARDIAN = info.getString("guardian")
 
                         var tempId = userId + "@gmail.com"
                         loginFireBase(tempId, PW)
@@ -154,6 +156,8 @@ class MainActivity : AppCompatActivity() {
                         MySharedPreferences.setUserId(MainActivity.MainActivityContext(), ID)
                         MySharedPreferences.setUserPw(MainActivity.MainActivityContext(), PW)
                         MySharedPreferences.setUserType(MainActivity.MainActivityContext(), TYPE)
+                        MySharedPreferences.setUserGuardian(MainActivity.MainActivityContext(), GUARDIAN)
+                        MySharedPreferences.setUserName(MainActivity.MainActivityContext(), NAME)
                         Toast.makeText(MainActivity.MainActivityContext(), "${MySharedPreferences.getUserId(MainActivity.MainActivityContext())}님 로그인 되었습니다.", Toast.LENGTH_SHORT).show()
                         if(TYPE.equals("1")) {
                             var intent = Intent(MainActivity.MainActivityContext(), MainActivity3::class.java)
