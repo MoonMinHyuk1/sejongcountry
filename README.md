@@ -28,6 +28,9 @@ SejongCountry는 지방에 거주하는 어르신들을 위한 시스템입니�
 - Firebase
 - IBM Watson
 
+##### 외부 API
+- 공공데이터포털
+
 ## 주요 기능
 
 - 로그인
