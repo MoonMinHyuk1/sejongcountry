@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/gongji_bg"
-    tools:context=".GongjiSubActivity">
+    tools:context=".domain.board.gongji.activity.GongjiSubActivity">
     <LinearLayout
         android:id="@+id/first"
         android:layout_width="match_parent"

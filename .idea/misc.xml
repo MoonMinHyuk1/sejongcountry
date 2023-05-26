@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.21603260869565216" />
         <entry key="..\:/Users/GooJongMo/AndroidStudioProjects/final-test30-master/app/src/main/res/drawable-v24/line.xml" value="0.2725" />
         <entry key="..\:/Users/GooJongMo/AndroidStudioProjects/final-test30-master/app/src/main/res/drawable-v24/line1.xml" value="0.2725" />
         <entry key="..\:/Users/GooJongMo/AndroidStudioProjects/final-test30-master/app/src/main/res/drawable-v24/line4.xml" value="0.2725" />
@@ -65,6 +66,11 @@
         <entry key="..\:/Users/USER/AndroidStudioProjects/sejongcountry-master/app/src/main/res/layout/real_main_admin.xml" value="0.1778115501519757" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/test30-master/app/src/main/res/layout/setting_main.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/test30-master/app/src/main/res/layout/user_menu.xml" value="0.36614583333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17135416666666667" />
+        <entry key="app/src/main/res/layout/anounce_main.xml" value="0.17135416666666667" />
+        <entry key="app/src/main/res/layout/real_main_admin.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.17135416666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2385" />
       </map>
     </option>
   </component>

@@ -21,39 +21,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test30">
         <activity android:name="SubActivity"/>
-        <activity android:name="AnounceActivity"/>
-        <activity android:name="MainActivity"/>
-        <activity android:name="GuneInsertActivity"/>
-        <activity android:name="SettingActivity"/>
-        <activity android:name="CreateIdActivity"/>
-        <activity android:name="GongjiSubActivity"/>
-        <activity android:name="FindIdActivity"/>
-        <activity android:name="FindPwActivity"/>
-        <activity android:name="FindPw1Activity"/>
-        <activity android:name="FindPw2Activity"/>
-        <activity android:name="MainActivity2"/>
-        <activity android:name="MainActivity3"/>
-        <activity android:name="GongjiInsertActivity"/>
-        <activity android:name="GongjiUpdateActivity"/>
-        <activity android:name="GongjiOpinionActivity"/>
+        <activity android:name=".domain.main.activity.AnounceActivity"/>
+        <activity android:name=".domain.main.activity.MainActivity"/>
+        <activity android:name=".domain.board.gune.activity.GuneInsertActivity"/>
+        <activity android:name=".domain.main.activity.SettingActivity"/>
+        <activity android:name=".domain.user.activity.CreateIdActivity"/>
+        <activity android:name=".domain.board.gongji.activity.GongjiSubActivity"/>
+        <activity android:name=".domain.user.activity.FindIdActivity"/>
+        <activity android:name=".domain.user.activity.FindPwActivity"/>
+        <activity android:name=".domain.user.activity.FindPw1Activity"/>
+        <activity android:name=".domain.user.activity.FindPw2Activity"/>
+        <activity android:name=".domain.main.activity.MainActivity2"/>
+        <activity android:name=".domain.main.activity.MainActivity3"/>
+        <activity android:name=".domain.board.gongji.activity.GongjiInsertActivity"/>
+        <activity android:name=".domain.board.gongji.activity.GongjiUpdateActivity"/>
+        <activity android:name=".domain.board.gongji.activity.GongjiOpinionActivity"/>
         <activity android:name="SubActivity2"/>
-        <activity android:name="GuneSubActivity"/>
-        <activity android:name=".AnnounceSpeakActivity"/>
+        <activity android:name=".domain.board.gune.activity.GuneSubActivity"/>
+        <activity android:name=".domain.main.activity.AnnounceSpeakActivity"/>
         <activity android:name="GuneOpinionActivity"/>
-        <activity android:name=".ChatBotActivity"/>
-        <activity android:name="UserMenuActivity"/>
-        <activity android:name="Splash"/>
+        <activity android:name=".domain.util.activity.ChatBotActivity"/>
+        <activity android:name=".domain.main.activity.UserMenuActivity"/>
+        <activity android:name=".domain.util.Splash"/>
 
 
         <activity
-            android:name=".StartActivity"
+            android:name=".domain.main.activity.StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".MyFirebaseMessagingService"
+        <service android:name=".domain.firebase.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>

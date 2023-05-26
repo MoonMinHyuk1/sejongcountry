@@ -34,7 +34,7 @@
             android:layout_height="0dp"
             android:layout_weight="1" />
 
-        <com.example.test30.RecordButton
+        <com.example.test30.domain.util.RecordButton
             android:id="@+id/announce_button"
             android:layout_width="65dp"
             android:layout_height="65dp"

@@ -6,7 +6,7 @@
     android:previewImage="@drawable/preview_widget"
     android:initialLayout="@layout/weather_appwidget"
     android:widgetCategory="home_screen|keyguard"
-    android:configure="com.example.test30.WidgetConfigActivity"
+    android:configure="com.example.test30.domain.util.activity.WidgetConfigActivity"
     android:widgetFeatures="reconfigurable">
 </appwidget-provider>
 
