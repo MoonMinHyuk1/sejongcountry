@@ -20,6 +20,10 @@ SejongCountry는 지방에 거주하는 어르신들을 위한 시스템입니�
 ##### Database
 - MySQL
 
+##### Server
+- Filezilla
+- Dothome hosting
+
 ##### 주요 라이브러리
 - Firebase
 - IBM Watson
