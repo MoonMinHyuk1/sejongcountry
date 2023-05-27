@@ -1,6 +1,6 @@
 # SejongCountry
 
-사진
+![sejongcountry](https://github.com/MoonMinHyuk1/sejongcountry/assets/102985637/d82cfc56-c931-4587-9d55-a2765c504895)
 
 ## 프로젝트 설명
 
