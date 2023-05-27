@@ -33,7 +33,15 @@ SejongCountry는 지방에 거주하는 어르신들을 위한 시스템입니�
 
 ## 주요 기능
 
-- 로그인
+- 회원가입
+- 로그인 & 자동로그인
+- 공지사항 (중요 공지 가능) & 댓글
+- 음성 공지사항
+- 푸시 알림
+- 건의사항 (비밀 건의 가능) & 댓글
+- 챗봇 서비스
+- 마을회관 인원 수 현황 확인
+- 시간대 별 날씨 확인
 
 ## ERD
 
@@ -51,3 +59,8 @@ SejongCountry는 지방에 거주하는 어르신들을 위한 시스템입니�
 
 ## 팀원
 
+|이름|구종모|박세진|문민혁|김태현|
+|---|:---:|:---:|:---:|:---:|
+|프로필|<img width="90px" height="90px" src="https://avatars.githubusercontent.com/u/102985015?v=4" />||<img width="90px" height="90px" src="https://avatars.githubusercontent.com/u/102985637?v=4" />||
+|역할|Android|Android|Back-end|Back-end|
+|깃허브|[mojong2](https://github.com/mojong2)||[MoonMinHyuk1](https://github.com/MoonMinHyuk1)||
